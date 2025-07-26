@@ -136,12 +136,12 @@
                         <div class="extra-cell one">
                             <ul class="wt-topbar-left-info">
                                 <li>
-                                    <a href="tel:+712021022525">
+                                    <a href="tel:+61416948717">
                                         <span><i class="feather feather-phone-call"></i></span>+61 416 948 717
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="mailto:someone@example.com">
+                                    <a href="mailto:services@boomerangrentals.com.au">
                                         <span><i class="feather feather-mail"></i></span>services@boomerangrentals.com.au
                                     </a>
                                 </li>
@@ -170,7 +170,7 @@
                                     <div class="twm-sm-title left">Premium</div>
                                     <h2 class="twm-banner-title">
                                         <em class="txt-type" data-wait="3000" data-words='["The Best Rental", "Wide Range of"]'></em>
-                                        Cars<span>&</span>Bikes
+                                        Cars<span>,</span>Bikes<span>,</span>Scooters<br><span>&</span>E-Bikes
                                     </h2>
 
                                     <div class="twm-banner-search-tabs">
@@ -1988,9 +1988,9 @@
                                     We offer a range of the finest and most premium cars and bikes on rent.
                                 </div>
                                 <ul class="ftr-list">
-                                    <li><i class="feather feather-phone-call"></i><a href="tel:1236540214">123 654 0214</a></li>
-                                    <li><i class="feather feather-mail"></i>carntelinfo@gmail.com</li>
-                                    <li><i class="feather feather-home"></i>55/11 ronin tower New York</li>
+                                    <li><i class="feather feather-phone-call"></i><a href="tel:+61416948717">+61 416 948 717</a></li>
+                                    <li><i class="feather feather-mail"></i>services@boomerangrentals.com.au</li>
+                                    <li><i class="feather feather-home"></i>79 Yerrick Road, Lakemba, NSW 2195</li>
                                 </ul>
                                 <div class="twm-social">
                                     <ul>
@@ -2013,9 +2013,8 @@
                                         <div class="widget widget_time-duraion">
                                             <h3 class="widget-title">Quick Links</h3>
                                             <ul>
-                                                <li><span>Monday - Friday:</span>09:00 AM - 09:00 PM</li>
-                                                <li><span>Saturday:</span>09:00 AM - 07:00PM </li>
-                                                <li><span>Sunday:</span>Closed </li>
+                                                <li><span>Monday - Sunday:</span>09:00 AM - 07:00 PM</li>
+                                                
                                             </ul>
                                         </div>
                                         
@@ -2043,14 +2042,12 @@
                                             <ul class="gris-2-column">
                                                 <li><a href="cars-detail.html">SUVs</a></li>
                                                 <li><a href="cars-detail.html">Sport Coupe</a></li>
-                                                <li><a href="cars-detail.html">Convertible</a></li>
+                                                
                                                 <li><a href="cars-detail.html">Wagon</a></li>
                                                 <li><a href="cars-detail.html">Sedan</a></li>
-                                                <li><a href="cars-detail.html">Yamaha R15</a></li>
-                                                <li><a href="cars-detail.html">BMW S 1000 RR</a></li>
+                                                <li><a href="cars-detail.html">Yamaha</a></li>
                                                 <li><a href="cars-detail.html">Kawasaki</a></li>
-                                                <li><a href="cars-detail.html">Hayabusa</a></li>
-                                                <li><a href="cars-detail.html">Harley Davidson</a></li>
+                                                
                                             </ul>
                                         </div>
                                         
@@ -2083,7 +2080,7 @@
             <div class="footer-bottom">
                 <div class="footer-bottom-info">
                     <div class="footer-copy-right">
-                        <span class="copyrights-text">© 2024<span class="site-text-primary">Carntel</span> All  rights reserved.</span>
+                        <span class="copyrights-text">© 2025<span class="site-text-primary">Boomerang Rentals</span> All  rights reserved.</span>
                     </div>
                 </div>
             </div>
