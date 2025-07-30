@@ -200,15 +200,7 @@
                                                             <div class="tabs-title">Van</div>
                                                         </div>
                                                     </div>
-                                                    <!-- Minibus Tabs-->
-                                                    <div class="nav-link" data-bs-toggle="tab" data-bs-target="#nav-Minibus">
-                                                        <div class="twm-tabs-bx">
-                                                            <div class="tabs-media">
-                                                                <img src="images/tabs-icon/minibus.png" alt="#">
-                                                            </div>
-                                                            <div class="tabs-title">Minibus</div>
-                                                        </div>
-                                                    </div>
+                                                   
                                                     <!-- Coupe Tabs-->
                                                     <div class="nav-link" data-bs-toggle="tab" data-bs-target="#nav-coupe">
                                                         <div class="twm-tabs-bx">
