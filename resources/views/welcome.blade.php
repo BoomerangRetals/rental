@@ -664,12 +664,12 @@
                             <div class="twm-banner-right-section">
                                 <div class="twm-banner-r-content">
                                     <div class="twm-banner-r-bx">
-                                        <h1 class="twm-bnr-title">Mercedes</h1>
+                                        <h1 class="twm-bnr-title">Toyota</h1>
                                         <div class="twm-banner-product-price">
-                                            <div class="twm-product-name">Mercedes</div>
+                                            <div class="twm-product-name">Toyota</div>
                                             <div class="twm-price-section">
-                                                <div class="v-price" id="number_notification">$800</div>
-                                                <div class="v-duration">/ Day</div>
+                                                <div class="v-price" id="number_notification">$350</div>
+                                                <div class="v-duration">/ Week</div>
                                             </div>
                                          </div>
                                     </div>
@@ -914,7 +914,7 @@
                                 <ul>
                                     <li>All Type Vehicle Available</li>
                                     <li>You Get 24/7 Roadside Assistance</li>
-                                    <li>We Are The UK’s Largest Provider</li>
+                                    <li>We Are The Sydney’s Popular Provider</li>
                                 </ul>
                             </div>
                             <div class="twm-btn-left">
@@ -1028,7 +1028,7 @@
                                         </div>
                                         <div class="twm-price-section">
                                             <div class="v-price">$800</div>
-                                            <div class="v-duration">/ Day</div>
+                                            <div class="v-duration">/ Week</div>
                                             <a href="cars-detail.html" class="v-detail"><em>Detail</em></a>
                                         </div>
                                     </div>

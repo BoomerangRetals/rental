@@ -11,12 +11,13 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('tolls', function (Blueprint $table) {
+        Schema::create('repair_services', function (Blueprint $table) {
             $table->id();
-            $table->string('registration_number')->nullable();
-            $table->string('toll_number')->nullable();
+            $table->foreignId('repair_customer_id')->constrained('repair_customers')->cascadeOnDelete();
+            $table->string('service_type')->nullable();
+            $table->string('description')->nullable();
+            $table->string('amount')->nullable();
             $table->dateTime('date')->nullable();
-            $table->string('added_by')->nullable();
             $table->timestamps();
         });
     }
@@ -26,6 +27,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('tolls');
+        Schema::dropIfExists('repair_services');
     }
 };

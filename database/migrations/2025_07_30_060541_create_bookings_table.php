@@ -1,5 +1,7 @@
 <?php
 
+use App\Models\User;
+use App\Models\Vehicle;
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
@@ -13,6 +15,17 @@ return new class extends Migration
     {
         Schema::create('bookings', function (Blueprint $table) {
             $table->id();
+            $table->foreignIdFor(User::class)->constrained()->cascadeOnDelete();
+            $table->foreignIdFor(Vehicle::class)->constrained()->cascadeOnDelete();
+            $table->dateTime('start_date')->nullable();
+            $table->dateTime('end_date')->nullable();
+            $table->integer('amount')->nullable();
+            $table->boolean('gst')->nullable();
+            $table->string('status')->nullable();
+            $table->integer('schedule')->nullable();
+            $table->string('schedule_day')->nullable();
+            $table->string('type')->nullable();
+            $table->string('added_by')->nullable();
             $table->timestamps();
         });
     }

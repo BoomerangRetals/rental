@@ -11,8 +11,13 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('log_services', function (Blueprint $table) {
+        Schema::create('repair_customers', function (Blueprint $table) {
             $table->id();
+            $table->dateTime('date')->nullable();
+            $table->string('customer_name')->nullable();
+            $table->string('address')->nullable();
+            $table->string('phone')->nullable();
+            $table->json('service_details')->nullable();
             $table->timestamps();
         });
     }
@@ -22,6 +27,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('log_services');
+        Schema::dropIfExists('repair_customers');
     }
 };
