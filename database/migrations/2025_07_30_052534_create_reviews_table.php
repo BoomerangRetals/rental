@@ -15,8 +15,7 @@ return new class extends Migration
     {
         Schema::create('reviews', function (Blueprint $table) {
             $table->id();
-            $table->foreignIdFor(User::class)->constrained()->cascadeOnDelete();
-            $table->foreignIdFor(Vehicle::class)->constrained()->cascadeOnDelete();
+            $table->string('name')->nullable();
             $table->integer('rating')->nullable();
             $table->string('comment')->nullable();
             $table->timestamps();

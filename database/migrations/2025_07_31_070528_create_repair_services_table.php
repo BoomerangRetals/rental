@@ -14,7 +14,6 @@ return new class extends Migration
         Schema::create('repair_services', function (Blueprint $table) {
             $table->id();
             $table->foreignId('repair_customer_id')->constrained('repair_customers')->cascadeOnDelete();
-            $table->string('service_type')->nullable();
             $table->string('description')->nullable();
             $table->string('amount')->nullable();
             $table->dateTime('date')->nullable();

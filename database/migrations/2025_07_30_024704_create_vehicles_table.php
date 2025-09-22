@@ -21,7 +21,7 @@ return new class extends Migration
             $table->string('colour')->nullable();
             $table->integer('seats')->nullable();
             $table->integer('doors')->nullable();
-            $table->integer('weekly');
+            $table->integer('weekly')->default(0);
             $table->string('transmission')->nullable();
             $table->string('fuel')->nullable();
             $table->string('body_type')->nullable();
@@ -31,10 +31,13 @@ return new class extends Migration
             $table->boolean('tracker')->default(false);
             $table->string('tracker_details')->nullable();
             $table->integer('bond')->default(0);
-            $table->string('thumbnail')->nullable();
+            $table->string('thumbnail', 2083)->nullable();
+            $table->string('vehicle_type')->nullable();
+            $table->boolean('visibility')->nullable();
+            $table->boolean('ready')->default(1);
             $table->json('terms')->nullable();
             $table->json('images')->nullable();
-            $table->string('status')->default('available'); // available, rented, maintenance
+            $table->boolean('status'); // available, rented, maintenance
             $table->timestamps();
         });
     }

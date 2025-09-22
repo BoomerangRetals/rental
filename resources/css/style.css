@@ -3975,8 +3975,8 @@ button.scroltop span {
   bottom: 0px;
   position: absolute;
   z-index: -1;
-  background: linear-gradient(45deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.32) 32%, rgb(255, 97, 0) 100%);
-  mix-blend-mode: color;
+  
+  
 }
 @media (max-width: 768px) {
   .wt-bnr-inr {
